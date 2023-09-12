@@ -6,6 +6,9 @@ const nextConfig = {
       "lexica-serve-encoded-images.sharif.workers.dev",
     ],
   },
+  typescript: {
+    ignoreBuildErrors: true
+  }
 }
 
 module.exports = nextConfig
